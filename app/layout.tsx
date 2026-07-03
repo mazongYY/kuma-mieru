@@ -8,6 +8,7 @@ import { getLocale, getMessages } from 'next-intl/server';
 import { Providers } from './providers';
 
 import { Toaster } from 'sonner';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = buildDefaultMetadata();
 
@@ -37,6 +38,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <Toaster position="top-center" richColors />
           </div>
         </Providers>
+        <Analytics />
       </body>
     </html>
   );

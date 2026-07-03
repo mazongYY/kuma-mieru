@@ -40,6 +40,7 @@
     "@react-aria/visually-hidden": "3.9.1",
     "@sankyu/react-circle-flags": "^1.6.7",
     "@tailwindcss/postcss": "^4.3.2",
+    "@vercel/analytics": "^2.0.1",
     "chalk": "5.6.2",
     "cheerio": "^1.2.0",
     "class-variance-authority": "^0.7.1",
